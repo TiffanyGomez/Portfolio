@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color : black;
+}
+a:hover{
+    color:#fff;
+}
+h3{
+    text-align: center;
+    font-size:larger;
+    text-decoration: underline;
+}
+body {
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #AABFAD;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    padding: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.div{
+    transition: background-color 0.5s ease;
+}
+div:hover{
+    background-color: #76A68F;
+}
+.other-section ul{
+    margin-left: 5%
+}
+.formations{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    background-color: #AABFAD;
+    border-radius: 10px;
+    width:48%;
+    margin-bottom: 20px;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left-section {
+    width: 70%;
+    background-color: #AABFAD;
+    padding: 20px;
+    border-radius: 10px;
+}
+.right-section {
+    width: 25%;
+    background-color: #AABFAD;
+    padding: 20px;
+    border-radius: 10px;
+}
+.photo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logo-langages {
+    background-color: #AABFAD;
+    border-radius: 10px;
+}
+.logo-langages ul {
+    list-style: none;
+    display: flex; 
+}
+.logo-langages ul li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: auto; 
+    
+}
+.logo-langages img {
+    width: 50px;
+    margin-bottom: 10px; 
+    
+}
+.main-logo img {
+    cursor: pointer;
+}
+.soft-skills{
+    width:48%;
+    display: flex;
+    flex-direction: column; 
+}
+.formations{
+    padding:10px;
+}
+.other-logos img {
+}
+.experience, .other-section {
+    width: 48%;
+}
+.other-section:hover{
+    background-color: #f5f5f5;
+}
+.soft-skills, .divers {
+    background-color: #AABFAD;
+    padding: 20px;
+    border-radius: 10px;
+}
+.divers{
+    margin-bottom:20px;
+}
+footer {
+    background-color: #AABFAD;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.right-section .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.right-section img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.experience {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    background-color: #AABFAD;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.exp-box, .form-box {
+    background-color: #AABFAD;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form-box{
+    margin-bottom:10px;
+}
+.left-side{
+    padding: 0.3em;
+    column-rule:  2px ;
+    column-count: 2;
+    margin-left: 20%;
+    line-height: 2.5;
+}
